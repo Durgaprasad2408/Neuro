@@ -313,6 +313,7 @@ export default function Journal({ user }) {
             value={entry}
             onChange={handleContentChange}
             autoFocus
+            rows={8}
           />
         </div>
       )}
